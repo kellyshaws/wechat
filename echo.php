@@ -13,5 +13,5 @@ $tmpStr = implode($tmpArr);
 $tmpStr = sha1($tmpStr);
 
 if($tmpStr == $signature) {
-    echo $echoStr
+    echo $echoStr;
 }
