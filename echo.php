@@ -12,6 +12,6 @@ sort($tmpArr);
 $tmpStr = implode($tmpArr);
 $tmpStr = sha1($tmpStr);
 
-if($tmpStr === $signature) {
-    echo $echoStr;
+if($tmpStr == $signature) {
+    echo $echoStr
 }
